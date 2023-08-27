@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './data.css';
 
 export const Statistics = ({ el, title = 'UPLOAD STATS' }) => {
@@ -14,4 +15,14 @@ export const Statistics = ({ el, title = 'UPLOAD STATS' }) => {
       </ul>
     </section>
   );
+};
+
+Statistics.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 };
