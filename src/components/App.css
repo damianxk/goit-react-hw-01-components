@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}

@@ -1,4 +1,4 @@
-import './statistics.css';
+import './data.css';
 
 export const Statistics = ({ el, title = 'UPLOAD STATS' }) => {
   return (
