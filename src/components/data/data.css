@@ -1,0 +1,29 @@
+.statistics {
+  margin-top: 2rem;
+}
+
+.stat-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  background-color: #37a38a;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.item-stat {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

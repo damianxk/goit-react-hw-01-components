@@ -1,0 +1,42 @@
+.profile {
+  background-color: #3a4355;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 75%;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tag {
+  color: rgb(177, 79, 79);
+}
+
+.stats {
+  margin-top: 1.5rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}

@@ -1,0 +1,33 @@
+.friend-list {
+  margin-top: 2rem;
+  list-style: none;
+  width: 100%;
+}
+
+.friend-list-item {
+  background-color: #3a4355;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 10px 40px;
+}
+
+.status-offline {
+  background: red;
+}
+
+.status-online {
+  background-color: green;
+}
+
+.status-online,
+.status-offline {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
