@@ -1,10 +1,10 @@
-.friend-list {
+.friends-list {
   margin-top: 2rem;
   list-style: none;
   width: 100%;
 }
 
-.friend-list-item {
+.friends-list-item {
   background-color: #3a4355;
   color: white;
   text-transform: uppercase;
@@ -30,4 +30,12 @@
   border-radius: 50%;
   width: 10px;
   height: 10px;
+}
+
+.friends-avatar {
+  max-width: 48px;
+}
+
+.friends-name {
+  font-weight: bold;
 }
