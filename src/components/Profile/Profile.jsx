@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import './User.css';
+import './Profile.css';
 
-export const User = ({
+export const Profile = ({
   username,
   tag,
   location,
@@ -35,7 +35,7 @@ export const User = ({
   );
 };
 
-User.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
